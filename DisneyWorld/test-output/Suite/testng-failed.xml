@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="firefoxTests(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.common.CrosBrow">
+        <methods>
+          <include name="verifypagetitle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.common.CrosBrow -->
+    </classes>
+  </test> <!-- firefoxTests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

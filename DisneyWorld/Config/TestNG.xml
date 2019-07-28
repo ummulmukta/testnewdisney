@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
+<suite name="Suite1" verbose="1" >
+  <test name="chrometest" >
+  <parameter name ="Browsser" value="chrome"/>
+    <classes>
+       <!-- <class name="com.testngrunner.TestNGRunner"/> -->
+       <class name="com.testngrunner.Dropdown"/>
+    </classes>
+  </test>
+  <test name="firefoxtest" >
+  <parameter name ="Browsser" value="firefox"/>
+    <classes>
+       <!-- <class name="com.testngrunner.TestNGRunner"/> -->
+       <class name="com.testngrunner.Dropdown"/>
+    </classes>
+  </test>
+</suite>
